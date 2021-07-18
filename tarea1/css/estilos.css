@@ -1,0 +1,27 @@
+h1{
+  color:white;
+  background-color: red;
+  font-size: 35px;
+  text-align: center;
+} /*a todos los h1 le cambia el color a blanco y le coloca el fondo rojo con un tamaño de 35 px.*/
+h2{
+  color:white;
+  background-color: red;
+  font-size: 20px;
+} /*a todos los h2 le cambia el color a blanco y le coloca el fondo rojo con un tamaño de 20 px.*/
+img{
+  width: 400px; height: 400px;
+}/* modifica el tamaño de la imagen*/
+p{
+  background-color: green;
+  color: white;
+  font-size: 20px;
+} /*a todos los p le cambia el color a verde y le coloca el fondo blanco con un tamaño de 20 px.*/
+a{
+  text-decoration: none;
+  color:black;
+} /* a todos los a(referencias) no se le coloca ninguna decoracion y las letras son de color negro.*/
+a:hover
+{
+  color: green;
+} /*a las referencias se le aplica el hover(cuando se pasa el cursor por arriba cambia el color a verde)*/
