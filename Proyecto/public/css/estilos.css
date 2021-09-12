@@ -1,0 +1,256 @@
+body{
+  background-color: #eeeeee;
+  position: relative;
+}
+
+.header{
+  width: 100%;
+  height: 95vh;
+  background-color: grey;
+  background-image: url(https://dc722jrlp2zu8.cloudfront.net/media/featured_images/Tipos-de-lenguajes-de-programaci%C3%B3n.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.bg-dark{
+  background-color: grey !important;
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+}
+
+.bg-dark1{
+  background-color:grey;
+  position: fixed;
+  z-index: 100;
+  width: 100;
+  border-bottom: 2px solid #fdbb2d;
+}
+
+@media(min-width:780px){
+  .bg-dark{
+    background-color: solid !important;
+  }
+}
+
+.navbar a{
+  color: black !important;
+  font-family: 'Kaisei HarunoUmi', serif;
+  text-align: center;
+  font-size: 23px;
+  padding: 4px 15px;
+}
+
+.navbar a:hover{
+  background: linear-gradient(160deg, grey 0%,#fdbb2d 100%);
+  border-radius: 5%;
+}
+
+.Text-hero{
+  height: 500px;
+  color: white;
+  font-family: 'Kaisei HarunoUmi', serif;
+  padding-top: 180px;
+}
+
+.Text-hero h3,h4{
+  font-size: 60px;
+  letter-spacing:.2em;
+  font-weight: bold;
+  display: flex;
+}
+
+.Text-hero a{
+  font-family: 'Kaisei HarunoUmi', serif;
+  font-size: 20px;
+  color: black;
+  padding: 5px 10px;
+  text-decoration: none;
+  border-radius: 5px;
+  background: linear-gradient(160deg, grey 0%,#fdbb2d 100%);
+}
+.Text-hero a:hover{
+  background: linear-gradient(160deg, grey 0%,#fdbb2db0 100%);
+}
+
+/*Fin del Header*/
+
+.Servicios{
+  background-color: grey;
+  padding-top: 50px;
+}
+.Servicios h1{
+  font-family: 'Kaisei HarunoUmi', serif;
+  font-size: 50px;
+  color:#fdbb2db0;
+}
+
+.Servicios p{
+  font-family:'Slabo 27px', serif;
+  font-size: 25px;
+  font-weight: 600;
+}
+.Servicios .row img{
+  width: 100%;
+  height: 250px;
+}
+
+.Perfil{
+  background-color: grey;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.Perfil .box img{
+  border-radius: 50%;
+}
+
+.Perfil h1{
+  font-family: 'Kaisei HarunoUmi', serif;
+  font-size: 50px;
+  color:#fdbb2db0;
+  padding-bottom: 13px;
+}
+
+.Perfil h3{
+  font-family:'Kaisei HarunoUmi', serif;
+  font-size: 35px;
+  color:black;
+  padding-top: 13px;
+  letter-spacing: 7px;
+}
+
+.Perfil p{
+  font-family:'Slabo 27px', serif;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.Estudio{
+  background-color: grey;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.Estudio h1{
+  font-family: 'Kaisei HarunoUmi', serif;
+  font-size: 50px;
+  color:#fdbb2db0;
+  padding-bottom: 13px;
+}
+
+.Estudio p{
+  font-family:'Slabo 27px', serif;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.Estudio h2{
+  font-family: 'Kaisei HarunoUmi', serif;
+  font-size: 30px;
+  color:#fdbb2db0;
+}
+.Galeria{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  background-color: grey;
+}
+
+.Galeria h2{
+  font-family: 'Kaisei HarunoUmi', serif;
+  font-size: 50px;
+  color:#fdbb2db0;
+  padding-bottom: 7px;
+}
+
+.Galeria .col-lg-4{
+  margin: 0;
+  padding: 3px;
+  transition: 0.2s linear;
+}
+
+.Galeria .col-lg-4:hover{
+  transform: scale(1.05);
+  transition: 0.2s linear;
+}
+
+.Galeria .row img{
+  width: 100%;
+  height: 210px;
+}
+
+/* fin seccion galeria */
+
+.Contacto{
+  padding-top: 90px;
+  padding-bottom: 90px;
+
+}
+.Contacto .row a{
+  width: 30%;
+  height:100px;
+}
+.Contacto .row img{
+  width:30%;
+  height: 100px;
+}
+.Contacto h1{
+  font-family: 'Kaisei HarunoUmi', serif;
+  font-size: 22px;
+  padding-bottom: 15px;
+  padding-top: 20px;
+}
+
+.Contacto input{
+  margin-bottom: 23px;
+  border: none;
+  border-radius: 0;
+  box-shadow: none !important;
+  border-bottom: 1px solid #313848;
+  margin-right: 10px;
+}
+
+.Contacto textarea{
+  margin-bottom: 13px;
+  border: none;
+  border-bottom: 1px solid #313848;
+  box-shadow: none !important;
+  min-height: 150px;
+  max-height: 150px;
+  width: 100%;
+  resize:vertical;
+}
+.Contacto .form a{
+  color: #fff;
+  font-family:'Kaisei HarunoUmi', serif;
+  font-size: 20px;
+  padding: 4px 15px;
+  text-align: center;
+  background: linear-gradient(160deg, grey 0%,#fdbb2d 100%);
+  text-decoration: none;
+}
+
+.Contacto a:hover{
+  background: linear-gradient(160deg, grey 0%,#fdbb2db0 100%);
+}
+
+/* Fin seccion c */
+
+.Foot{
+  background: linear-gradient(160deg, grey 0%,#fdbb2db0 100%);
+}
+
+.Foot h4{
+  font-family: 'Kaisei HarunoUmi', serif;
+  padding: 10px;
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+  margin:0;
+  overflow: hidden;
+}
